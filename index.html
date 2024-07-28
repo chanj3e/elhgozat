@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Optimized Company Landing Page</title>
+    <title>شركة الحجوزات المثالية</title>
     <style>
       :root {
         --primary-color: #3498db;
@@ -259,7 +259,10 @@
         transform: translateY(-5px);
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
       }
-
+      .newP {
+        margin-bottom: 25px;
+        font-size: large;
+      }
       /* footer  */
       .footer {
         background-color: var(--primary-color);
@@ -366,6 +369,13 @@
           height: 25px;
         }
       }
+      .justify {
+        text-align: justify;
+        letter-spacing: 0.6px;
+      }
+      .jfyBtm {
+        margin-bottom: 15px;
+      }
     </style>
 
     <!-- Google Ads Conversion Tracking - Global site tag (gtag.js) -->
@@ -383,7 +393,7 @@
       gtag("config", "AW-CONVERSION_ID");
     </script> -->
   </head>
-  <body dir="rtl">
+  <body>
     <header>
       <h1>
         شركة الحجوزات المثالية لخدمات الحجوزات الفندقية و رحلات العمرة بمكة
@@ -531,33 +541,33 @@
       <h2>آراء العملاء</h2>
       <div class="testimonial-grid">
         <div class="testimonial">
-          <blockquote>
+          <blockquote class="justify jfyBtm">
             "كانت تجربتي مع شركة الحجوزات المثالية لا تُنسى! جميع ترتيبات الرحلة
             كانت سلسة ومنظمة بشكل رائع. من الحجز إلى الوصول إلى الفندق، كل شيء
             كان على أعلى مستوى من الجودة والرفاهية. لقد استمتعت برحلة حج مريحة
             وآمنة بفضل خدماتهم المتميزة. بالتأكيد سأوصي بها لأصدقائي وعائلتي."
           </blockquote>
-          <p>- محمد العتيبي</p>
+          <p><strong>- محمد العتيبي</strong></p>
         </div>
         <div class="testimonial">
-          <blockquote>
+          <blockquote class="justify jfyBtm">
             "شركة الحجوزات المثالية تفوقت على توقعاتي بكل معنى الكلمة. الأسعار
             كانت معقولة جدًا مقارنة بالخدمات الفاخرة التي قدموها. كل شيء كان
             مرتبًا بدقة، مما جعل تجربتي في العمرة تجربة لا تُنسى. كانت وسائل
             النقل مريحة وموثوقة، والفندق الذي حجزوه لي كان رائعًا. أشكرهم جزيل
             الشكر على هذه التجربة الرائعة."
           </blockquote>
-          <p>- سارة الأحمدي</p>
+          <p><strong>- سارة الأحمدي</strong></p>
         </div>
         <div class="testimonial">
-          <blockquote>
+          <blockquote class="justify jfyBtm">
             "كانت تجربتي مع شركة الحجوزات المثالية ممتازة من البداية إلى
             النهاية. الاهتمام بالتفاصيل كان واضحًا في كل خطوة من الرحلة. فريق
             العمل كان محترفًا ومتعاونًا للغاية، مما جعلني أشعر بالاطمئنان
             والراحة. كانت رحلتي للحج مليئة بالسكينة والراحة، بفضل خدماتهم
             الاستثنائية. أنصح الجميع بتجربة خدمات هذه الشركة الرائدة."
           </blockquote>
-          <p>- عبدالله الشمري</p>
+          <p><strong>- عبدالله الشمري</strong></p>
         </div>
       </div>
       <a href="https://wa.me/966535536172" class="whatsapp-btn">
@@ -570,31 +580,39 @@
         <a
           href="https://drive.google.com/file/d/1rOJPQsgYA4-e8R1jqc33XAte_fTCbSdP/view"
           class="who-btn"
+          target="_blank"
         >
-          من نحن
+          اضغط لتتعرف علينا وعلى اعمالنا بشكل اكبر
         </a>
       </h3>
+      <p class="newP">لماذا تحجز مع شركة الحجوزات المثالية</p>
       <ul>
         <li>
           <h3>رحلة لا تنسى</h3>
-          <p>
-            في خير الديار، وأعظم الجوار، عبق الروحانية والطمأنينة تغمر الآفاق
+          <p class="justify">
+            في خير الديار، وأعظم الجوار، عبق الروحانية والطمأنينة تغمر الآفاق.
           </p>
         </li>
         <li>
           <h3>في عنان السماء</h3>
-          <p>
+          <p class="justify">
             حلق معنا في طريقك نحو رحلة إيمانية، تهفو لها النفوس، و يرنو لها
-            الفؤاد
+            الفؤاد.
           </p>
         </li>
         <li>
+          <h3>إلى حيث تشاء</h3>
+          <p class="justify">
+            نكمل الطريق معك كما بدأناه، سيارات وحافلات، تقلك إلى حيث تشاء
+          </p>
+        </li>
+        <!-- <li>
           <h3>غرف تغمرك بالاسترخاء</h3>
-          <p>
+          <p class="justify">
             من لحظة وصولك، ضع أمتعتك وألقي نفسك بين جنبات غرفنا التي تغمرك
             بالاسترخاء، وانس عناءالطريق
           </p>
-        </li>
+        </li> -->
       </ul>
       <a href="https://wa.me/966535536172" class="whatsapp-btn">
         احجز رحلتك معنا الآن !</a
