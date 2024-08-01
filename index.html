@@ -150,6 +150,8 @@
       }
 
       .whatsapp-btn {
+        font-size: xxx-large;
+
         display: inline-block;
         background-color: #25d366;
         color: white;
@@ -376,6 +378,53 @@
       .jfyBtm {
         margin-bottom: 15px;
       }
+      .video-section {
+        padding: 2rem 0;
+        text-align: center;
+      }
+      .video-section {
+        padding: 4rem 0;
+        background-color: #f8f9fa;
+      }
+
+      .video-content {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        text-align: center;
+      }
+
+      .video-content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+
+      .video-content p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        color: #666;
+      }
+
+      .video-container {
+        position: relative;
+        padding-bottom: 50.25%; /* Slightly reduced height */
+        height: 0;
+        overflow: hidden;
+        max-width: 90%; /* Reduced width */
+        margin: 0 auto;
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
     </style>
 
     <!-- Google Ads Conversion Tracking - Global site tag (gtag.js) -->
@@ -407,6 +456,25 @@
         احجز رحلتك معنا الآن !</a
       >
     </section>
+    <div class="video-content">
+      <h2>شاهد فيديو عن خدماتنا</h2>
+      <p>
+        استمتع بمشاهدة هذا الفيديو للتعرف على خدماتنا المميزة والتجربة الفريدة
+        التي نقدمها لعملائنا الكرام.
+      </p>
+      <div class="video-container">
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qIYh6fG2pr4?autoplay=1&mute=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
     <div class="carousel">
       <img
         src="images/d8cc0681-8589-4861-9636-6effd57cc523.jpg"
